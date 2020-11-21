@@ -1,0 +1,151 @@
+*{
+    list-style: none;
+}
+
+.skills h1{
+    text-align: center;
+}
+
+body {
+    background: #333;
+}
+.skills{
+    width: 500px;
+    margin: 60px auto;
+    color: white;
+}
+.skills li{
+    margin: 20px 0;
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 2px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #1287e7b3;
+}
+.bar span{
+    height: 2px;
+    float: left;
+    background: #2187e7;
+}
+.html{
+    width: 70%;
+    animation: html 2s;
+}
+.css {
+    width: 50%;
+    animation: css 2s;
+}
+.jquery{
+    width: 10%;
+    animation: jquery 2s;
+}
+.javascript{
+    width: 10%;
+    animation: javascript 2s;
+}
+
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+
+@keyframes jquery {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 10%;
+    }
+}
+
+@keyframes javascript {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 10%;
+    }
+}
+/* Second bar*/
+
+.personality h1{
+    text-align: center;
+}
+
+.personality {
+    width: 500px;
+    margin: 60px auto;
+    color: white;
+}
+.personality li{
+    margin: 20px 0;
+}
+.nerd{
+    width: 100%;
+    animation: nerd 2s;
+}
+.honest {
+    width: 100%;
+    animation: honest 2s;
+}
+.hardwork {
+    width: 100%;
+    animation: hardwork 2s;
+}
+.sexy{
+    width: 100%;
+    animation: sexy 2s;
+}
+
+@keyframes nerd {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+@keyframes honest {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+@keyframes hardwork {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+@keyframes sexy {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}

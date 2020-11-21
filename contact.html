@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/mpage.css">
+  <link rel="stylesheet" href="/css/contact.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <title>Contact</title>
+</head>
+<body>
+  
+  <div class="header">
+    <h2 class="logo">Dawid/Wysocki</h2>
+    <input type="checkbox" id="chk">
+    <label for="chk" class="show-menu-btn">
+        <i class="fas fa-ellipsis-h"></i>
+    </label>
+
+<ul class="menu">
+ <a href="/main.html">Home</a>
+ <a href="/about.html">About</a>
+ <a href="/index.html">Landing Page</a>
+ <a href="#">Projects</a>
+ <a href="/contact.html">Contact</a>
+ <label for="chk" class="hide-menu-btn" >
+     <i class="fas fa-times"></i>
+ </label>
+</ul>
+</div>
+
+<div class="contact-section">
+
+  <h1>Contact Me</h1>
+   <div class="border"></div>
+  <form class="contact-form" action="contact.html" method="POST">
+    <input type="text" class="contact-form-text" placeholder="Your Name" required>
+    <input type="email" class="contact-form-text" placeholder="Your E-mail" required>
+    <input type="text" class="contact-form-text" placeholder="Your Phone Number" required>
+    <textarea class="contact-form-text" placeholder="Your Message"></textarea>
+    <input type="submit" class="contact-form-btn" value="Send">
+  </form>
+</div>
+
+</body>
+</html>
